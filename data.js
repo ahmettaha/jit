@@ -15,7 +15,7 @@ var labelType, useGradients, nativeTextSupport, animate;
   animate = !(iStuff || !nativeCanvasSupport);
 })();
 
-function init(){
+function initGraph(){
     //init data
     var json = {
         id: "node02",
